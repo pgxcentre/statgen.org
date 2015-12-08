@@ -1,0 +1,66 @@
+@import url(https://fonts.googleapis.com/css?family=Lora:700);
+
+body {
+  margin: 0; }
+
+header {
+  border-top: 3px solid #333;
+  border-bottom: 1px solid #c3c3c3;
+  background-color: #efefef;
+  height: 230px;
+  width: 100%; }
+
+header nav ul {
+  margin-top: 70px;
+  list-style: none; }
+
+header nav ul li {
+  display: inline-block; }
+
+header nav ul li a {
+  color: black;
+  text-decoration: none;
+  border-bottom: 1px dotted #333;
+  margin-right: 15px; }
+
+header div, section#content {
+  padding: 0 30px;
+  min-width: 900px;
+  width: 60%;
+  margin: 0 auto; }
+
+header div img {
+  float: left;
+  border-radius: 90px;
+  border: 1px solid #c3c3c3;
+  margin-right: 30px; }
+
+header div p {
+  font-family: "Helvetica Neue", Helvetica, sans-serif;
+  font-weight: 200;
+  font-size: 1.1em;
+  margin: 0; }
+
+header div h1 {
+  font-family: Lora;
+  margin: 27px 0 0 0;
+  font-size: 2.5em; }
+
+section#content {
+  margin-top: 40px; }
+
+/* Typography */
+p, a, li {
+  font-size: 19px;
+  line-height: 33px;
+  font-family: Georgia, Cambria, Times, serif;}
+
+h1 {
+  font-family: Lora;
+  font-size: 2em; }
+
+h2 {
+  font-size: 1.9em; }
+
+small {
+  font-size: 0.9em; }

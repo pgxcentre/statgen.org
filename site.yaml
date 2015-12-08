@@ -1,0 +1,8 @@
+configuration:
+    build_dir: build
+    template_dir: templates
+    bibtex_dir: content/bibtex
+
+pages:
+    - filename: index.html
+      template: default.html

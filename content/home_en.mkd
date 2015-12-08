@@ -1,0 +1,22 @@
+
+# Our vision
+
+Our group is interested in the development and application of statistical
+genetics in the field of cardiovascular diseases and pharmacogenomics.
+
+One of the main projects in the group presently is the analysis of a genetic
+study on muscle pain related to statin-use in a case-control study of 4,600
+participants collected in 9 collaborating centres throughout Quebec. We are
+also in the process of starting the data collection for our pharmacogenomic
+study of warfarin, which aims to sample 2,500 incident users in a prospective
+observational study in Quebec. We have also been involved in the analysis of
+pharmacogenomic sub-studies of three phase-3 clinical trials and one phase-2
+trial related to treatment for cardiovascular disease and dyslipidemia.
+
+We work in close collaboration with scientists at the Beaulieu-Saucier
+Pharmacogenomics Center at the Montreal Heart Institute. We also participate in
+productive collaborative efforts with clinicians and scientists at the Montreal
+Heart Institute, at the Universite de Montréal, University of British Columbia,
+Memorial University in Newfoundland, Dalhousie in Halifax, and abroad, with
+whom we collaborate on various statistical genetics applications including
+family-based genetic projects, animal and human genetic studies.
