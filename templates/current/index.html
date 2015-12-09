@@ -1,0 +1,34 @@
+<!Doctype html>
+<html>
+  <head>
+
+    <script type="text/javascript" src="js/require.js"></script>
+    <link rel="stylesheet" href="css/styles.css" />
+    <meta charset="UTF-8">
+
+  </head>
+  <body>
+    <header id="header">
+      <div>
+        <img src="img/mp.jpg" alt="Picture of Dr Dubé" />
+        <h1>Marie-Pierre Dubé Laboratory</h1>
+        <p>Statistical genetics, bioinformatics and pharmacogenomics at the MHI</p>
+        <nav>
+          <ul>
+            <li><a href="">Home</a></li>
+            <li><a href="">People</a></li>
+            <li><a href="">Publications</a></li>
+            <li><a href="">Projects</a></li>
+            <li><a href="">Github</a></li>
+          </ul>
+        </nav>
+      </div>
+    </header>
+
+    <section id="content">
+
+      {{ content|safe }}
+
+    </section>
+  </body>
+</html>
