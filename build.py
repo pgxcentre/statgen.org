@@ -1,4 +1,23 @@
 #!/usr/bin/env python3
+"""Tool to build the HTML source for the statgen.org website.
+
+The following dependencies are required:
+
+    * yaml (to parse the website configuration page)
+    * bibtexparser (to parse the BibTeX files for Dubé's publications)
+    * markdown (to convert Markdown files to the HTML format)
+    * jinja2 (to help with the HTML templating)
+
+To execute the script, perform the following command (where `site.yaml` is the
+website's YAML configuration file):
+
+    python3 build.py site.yaml
+
+Note
+----
+    This script only works on Python version 3.3 and higher.
+
+"""
 
 
 import os
@@ -7,6 +26,7 @@ from glob import glob
 
 import yaml
 import bibtexparser
+from markdown import Markdown
 from jinja2 import Environment, FileSystemLoader
 
 
