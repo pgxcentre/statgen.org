@@ -1,9 +1,10 @@
-<!Doctype html>
+<!DOCTYPE html>
 <html>
   <head>
 
     <title>{{ title }} - Marie-Pierre Dubé Laboratory</title>
 
+    <script type="text/javascript" src="{{ static_url }}/js/html5shiv.min.js"></script>
     <script type="text/javascript" src="{{ static_url }}/js/require.js"></script>
     <link rel="stylesheet" href="{{ static_url }}/css/styles.css" />
     <meta charset="UTF-8">
@@ -20,7 +21,12 @@
             {% for nav in navigation %}
             <li><a href="{{ nav.url }}">{{ nav.title.en if language == "en" else nav.title.fr }}</a></li>
             {% endfor %}
-            <li><a href="">Github</a></li>
+            <li><a href="https://github.com/pgxcentre" target="_blank" id="github">
+              <svg width="25" height="25">
+                <image xlink:href="{{ static_url }}/img/github_logo.svg"
+                  src="{{ static_url }}/img/github_logo.png" width="25" height="25" />
+              </svg>
+            </a></li>
           </ul>
         </nav>
       </div>

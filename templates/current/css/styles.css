@@ -15,7 +15,7 @@ header nav ul {
   list-style: none; }
 
 header nav ul li {
-  display: inline-block; }
+  display: inline; }
 
 header nav ul li a {
   color: black;
@@ -38,6 +38,7 @@ header div img {
 header div p {
   font-family: "Helvetica Neue", Helvetica, sans-serif;
   font-weight: 200;
+  font-style: italic;
   font-size: 1.1em;
   margin: 0; }
 
@@ -49,18 +50,37 @@ header div h1 {
 section#content {
   margin-top: 40px; }
 
+a#github {
+  position: relative;
+  left: 0px;
+  top: 5px;
+  border: none; }
+
+
 /* Typography */
 p, a, li {
   font-size: 19px;
   line-height: 33px;
   font-family: Georgia, Cambria, Times, serif;}
 
+a {
+ color: #77b3d7; }
+
 h1 {
   font-family: Lora;
   font-size: 2em; }
 
 h2 {
-  font-size: 1.9em; }
+  color: #3c3736;
+  font-size: 1.5em; }
+
+h3 {
+  font-weight: bold;
+  font-size: 1.3em; }
 
 small {
   font-size: 0.9em; }
+
+p.publication, p.publication a {
+  font-size: 0.95em;
+  line-height: 20px; }
