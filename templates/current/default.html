@@ -2,23 +2,24 @@
 <html>
   <head>
 
-    <script type="text/javascript" src="js/require.js"></script>
-    <link rel="stylesheet" href="css/styles.css" />
+    <title>{{ title }} - Marie-Pierre Dubé Laboratory</title>
+
+    <script type="text/javascript" src="{{ static_url }}/js/require.js"></script>
+    <link rel="stylesheet" href="{{ static_url }}/css/styles.css" />
     <meta charset="UTF-8">
 
   </head>
   <body>
     <header id="header">
       <div>
-        <img src="img/mp.jpg" alt="Picture of Dr Dubé" />
+        <img src="{{ static_url }}/img/mp.jpg" alt="Picture of Dr Dubé" />
         <h1>Marie-Pierre Dubé Laboratory</h1>
         <p>Statistical genetics, bioinformatics and pharmacogenomics at the MHI</p>
         <nav>
           <ul>
-            <li><a href="">Home</a></li>
-            <li><a href="">People</a></li>
-            <li><a href="">Publications</a></li>
-            <li><a href="">Projects</a></li>
+            {% for nav in navigation %}
+            <li><a href="{{ nav.url }}">{{ nav.title.en if language == "en" else nav.title.fr }}</a></li>
+            {% endfor %}
             <li><a href="">Github</a></li>
           </ul>
         </nav>
@@ -27,7 +28,9 @@
 
     <section id="content">
 
+      {% block content %}
       {{ content|safe }}
+      {% endblock %}
 
     </section>
   </body>

@@ -1,8 +1,34 @@
+# The configuration
 configuration:
+    source_dir: content
     build_dir: build
-    template_dir: templates
+    template_dir: templates/current
     bibtex_dir: content/bibtex
 
+# The pages (in order)
 pages:
-    - filename: index.html
-      template: default.html
+    - title:
+        en: Home
+        fr: Accueil
+      file_prefix: home
+      navigation: yes
+
+    - title:
+        en: People
+        fr: Membres
+      file_prefix: people
+      navigation: yes
+
+    - title:
+        en: Projects
+        fr: Projets
+      file_prefix: projects
+      navigation: yes
+
+    - title:
+        en: Publications
+        fr: Publications
+      file_prefix: publications
+      navigation: yes
+      template: publications.html
+      bibtex: yes

@@ -1,0 +1,28 @@
+
+# Projects
+
+
+### Genetic predictors of interindividual variation in response to warfarin
+Funded by the CIHR and CepMED; PI: M-P Dubé
+
+### Genetic predictors of statin-induced myotoxicity
+Funded by Genome Canada, In collaboration with Jean-Claude Tardif
+
+### Genetic predictors of interindividual variation in response to CETP inhibition
+In collaboration with Pfizer, Roche, and Jean-Claude Tardif
+
+### Bioinformatics of ADME gene next-generation sequencing
+PI: M-P Dubé
+
+### Clustering algorithms for rare variant genotyping platforms
+PI: M-P Dubé
+
+### Genetic predictors of comorbid depressive symptoms and CAD
+Funded by the MHI Foundation, PI: M-P Dubé
+
+### Gene interaction modeling
+Funded by the MHI Foundation; PI: M-P Dubé
+
+### Genetic determinants of congenital heart disease
+In collaboration with Gregor Andelfinger (Centre de Recherche Mère-Enfant, UdeM)
+

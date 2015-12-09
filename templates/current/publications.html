@@ -1,0 +1,21 @@
+{% extends "default.html" %}
+
+      {% block content %}
+
+      {{ content|safe }}
+
+      {% for year, publications in bibtex %}
+      <h2>{{ year }}</h2>
+
+      {% for pub in publications %}
+      <p class="publication">
+        <strong class="title">{{ pub.title }}</strong>
+        <em class="authors">{{ pub.author }}</em>
+        <a class="journal" href="http://www.ncbi.nlm.nih.gov/pubmed/{{ pub.pmid }}" target="_blank"><em class="journal">{{ pub.journal }}</em> {{ pub.year }}; {{ pub.number }}: {{ pub.pages }}.</a> 
+        <a class="bibtex" href="http://www.bioinformatics.org/texmed/cgi-bin/list.cgi?PMID={{ pub.pmid }}" target="_blank">[BibTeX]</a>
+      </p>
+      {% endfor %}
+      {% endfor %}
+
+      {% endblock %}
+
