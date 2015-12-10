@@ -106,6 +106,7 @@ class Site(object):
         # The page information
         page_info = dict(
             title=title,
+            curr_url=file_prefix + ".html",
             filename=os.path.join(self.build_dir, "{language}",
                                   file_prefix + ".html"),
             template=self.template_env.get_template(
@@ -154,9 +155,11 @@ class Site(object):
                     title=page["title"][language],
                     content=page["content_" + language],
                     static_url=self.site_root + "/" + self.static_dir,
+                    site_root=self.site_root,
                     lang_root=self.site_root + "/" + language,
                     navigation=self.navigation,
                     bibtex=page.get("bibtex", None),
+                    curr_url=page["curr_url"],
                 )
 
                 # Saving the content

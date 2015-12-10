@@ -12,13 +12,17 @@
   </head>
   <body>
     <header id="header">
-      <a href="" id="language-button">
-        {{ "English" if language == "fr" else "Français" }}
+      <a href="{{ site_root }}/{{ "fr" if language == "en" else "en" }}/{{ curr_url }}" id="language-button">
+        {{ "Français" if language == "en" else "English" }}
       </a>
       <div>
         <img src="{{ static_url }}/img/mp.jpg" alt="Picture of Dr Dubé" />
-        <h1>Marie-Pierre Dubé Laboratory</h1>
+        <h1>{{ "Marie-Pierre Dubé's Laboratory" if language == "en" else "Laboratoire de Marie-Pierre Dubé" }}</h1>
+        {% if language == "en" %}
         <p>Statistical genetics, bioinformatics and pharmacogenomics at the MHI</p>
+        {% else %}
+        <p>Statistique génétique, bio-informatique et pharmacogénomique à l'ICM</p>
+        {% endif %}
         <nav>
           <ul>
             {% for nav in navigation %}
