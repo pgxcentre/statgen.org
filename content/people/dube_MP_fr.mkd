@@ -1,6 +1,8 @@
 
 # Marie-Pierre Dubé
 
+![MPD_photo]({{ static_url }}/img/dube_mp.jpeg "Marie-Pierre Dubé, PhD")
+
 ## Université de Montréal
 
 * Professeure associée, Départment de Médicine
