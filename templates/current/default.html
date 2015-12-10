@@ -19,7 +19,7 @@
         <nav>
           <ul>
             {% for nav in navigation %}
-            <li><a href="{{ nav.url }}">{{ nav.title.en if language == "en" else nav.title.fr }}</a></li>
+            <li><a href="{{ lang_root }}/{{ nav.url }}">{{ nav.title.en if language == "en" else nav.title.fr }}</a></li>
             {% endfor %}
             <li><a href="https://github.com/pgxcentre" target="_blank" id="github">
               <svg width="25" height="25">

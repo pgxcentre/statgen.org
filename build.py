@@ -35,11 +35,13 @@ from jinja2 import Environment, FileSystemLoader
 class Site(object):
     LANGUAGES = ("en", "fr")
 
-    def __init__(self, source_dir="source", build_dir="build",
-                 template_dir="templates", bibtex_dir=None):
+    def __init__(self, site_root="/", static_dir="static", source_dir="source",
+                 build_dir="build", template_dir="templates", bibtex_dir=None):
         """Initiate a new website.
 
         Args:
+            site_root (str): the website root
+            static_dir (str): the directory that will contain the static files.
             source_dir (str): the name of the directory containing the source.
             build_dir (str): the name of the build directory.
             template_dir (str): the name of the templates directory.
@@ -47,6 +49,8 @@ class Site(object):
 
         """
         # The directories
+        self.site_root = site_root.rstrip("/")
+        self.static_dir = static_dir
         self.source_dir = source_dir
         self.build_dir = build_dir
         self.template_dir = template_dir
@@ -67,12 +71,17 @@ class Site(object):
             if os.path.isdir(full_path):
                 shutil.copytree(
                     full_path,
-                    os.path.join(self.build_dir, "static", path),
+                    os.path.join(self.build_dir, self.static_dir, path),
                 )
 
-        # Prepare the jinja2 environment.
-        self.env = Environment(
+        # Prepare the jinja2 environment for the templates
+        self.template_env = Environment(
             loader=FileSystemLoader(self.template_dir)
+        )
+
+        # Prepare the jinja2 environment for the Markdown source files
+        self.markdown_env = Environment(
+            loader=FileSystemLoader(self.source_dir),
         )
 
         # The pages
@@ -99,17 +108,23 @@ class Site(object):
             title=title,
             filename=os.path.join(self.build_dir, "{language}",
                                   file_prefix + ".html"),
-            template=self.env.get_template(kwargs.get("template",
-                                                      "default.html")),
+            template=self.template_env.get_template(
+                kwargs.get("template", "default.html"),
+            ),
         )
 
         # Reading the page content (both languages)
         for language in self.LANGUAGES:
-            fn = os.path.join(self.source_dir,
-                              file_prefix + "_{}.mkd".format(language))
-            content = None
-            with open(fn, "r") as i_file:
-                content = i_file.read()
+            # Getting the markdown template
+            content = self.markdown_env.get_template(
+                file_prefix + "_{}.mkd".format(language),
+            )
+
+            # Rendering the markdown template
+            content = content.render(
+                static_url=self.site_root + "/" + self.static_dir,
+                lang_root=self.site_root + "/" + language,
+            )
 
             # Converting to HTML
             page_info["content_" + language] = Markdown().convert(content)
@@ -138,13 +153,16 @@ class Site(object):
                     language=language,
                     title=page["title"][language],
                     content=page["content_" + language],
-                    static_url="../static",
+                    static_url=self.site_root + "/" + self.static_dir,
+                    lang_root=self.site_root + "/" + language,
                     navigation=self.navigation,
                     bibtex=page.get("bibtex", None),
                 )
 
                 # Saving the content
                 fn = page["filename"].format(language=language)
+                if not os.path.isdir(os.path.dirname(fn)):
+                    os.makedirs(os.path.dirname(fn))
                 with open(fn, "w") as o_file:
                     o_file.write(content)
 

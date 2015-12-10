@@ -1,9 +1,11 @@
 # The configuration
 configuration:
-    source_dir: content
-    build_dir: build
-    template_dir: templates/current
-    bibtex_dir: content/bibtex
+    source_dir: content               # The directory containing MKD files
+    build_dir: build                  # The directory where the site is build
+    template_dir: templates/current   # The directory containing the templates
+    bibtex_dir: content/bibtex        # The directory containing BibTeX files
+    static_dir: static                # The directory containing static content
+    site_root: /build/                    # The website root
 
 # The pages (in order)
 pages:
@@ -32,3 +34,8 @@ pages:
       navigation: yes
       template: publications.html
       bibtex: yes
+
+    - title:
+        en: Marie-Pierre Dubé
+        fr: Marie-Pierre Dubé
+      file_prefix: people/dube_MP
