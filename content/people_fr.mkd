@@ -4,7 +4,7 @@
 
 ## Membres actuels
 
-* Marie-Pierre Dubé, PhD, directrice de recherche
+* [Marie-Pierre Dubé]({{ lang_root }}/people/dube_MP.html), PhD, directrice de recherche
 * Sylvie Provost, MSc, chef de projet
 * Amina Barhdadi, PhD, bio-statisticienne
 * Géraldine Asselin, MSc, assistante de recherche
@@ -16,13 +16,13 @@
 * Anne Nguyen, Étudiante MSc en sciences biomédicales, UdeM
 
 
-## Ancien membres
+## Anciens membres
 
 * Felix Lamothe, Étudiant BSc, projet de stage (2015)
 * Bénédicte Perreault, Étudiante MSc, Pharmacologie (2014)
 * Mélanie Girard, Étudiante BSc, Biochimie (2014), financée par COPSE
 * Patrick Holloway, Étudiant MSc, Bio-informatique (2014)
-* Rosa Zetler, Étudiante MSc, Sciences Biomédicales (2012 – 2014)
+* Rosa Zetler, Étudiante MSc, Sciences Biomédicales (2012-2014)
 * Nabil Zaid, Étudiant PhD, Bio-informatique, (2012-2014)
 * Dévice Djomo, Étudiant MSc, Pharmacologie (2013)
 * Simon Girard, Étudiant PhD, Biology moléculaire, UdeM

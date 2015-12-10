@@ -4,7 +4,7 @@
 
 ## Current members
 
-* Marie-Pierre Dubé, PhD, research director
+* [Marie-Pierre Dubé]({{ lang_root }}/people/dube_MP.html), PhD, research director
 * Sylvie Provost, MSc, project manager
 * Amina Barhdadi, PhD, biostatistician
 * Géraldine Asselin, MSc, research assistant
@@ -22,7 +22,7 @@
 * Bénédicte Perreault, MSc student, Pharmacology (2014)
 * Mélanie Girard, BSc student, Biochemistry (2014), funded by COPSE
 * Patrick Holloway, MSc student, Bioinformatics (2014)
-* Rosa Zetler, MSc student, Biomedical Sciences (2012 – 2014)
+* Rosa Zetler, MSc student, Biomedical Sciences (2012-2014)
 * Nabil Zaid, PhD student, Bioinformatics, (2012-2014)
 * Dévice Djomo, MSc student, Pharmacology (2013)
 * Simon Girard, PhD student in molecular biology, UdeM
