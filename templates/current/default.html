@@ -12,6 +12,9 @@
   </head>
   <body>
     <header id="header">
+      <a href="" id="language-button">
+        {{ "English" if language == "fr" else "Français" }}
+      </a>
       <div>
         <img src="{{ static_url }}/img/mp.jpg" alt="Picture of Dr Dubé" />
         <h1>Marie-Pierre Dubé Laboratory</h1>
