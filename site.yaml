@@ -36,6 +36,12 @@ pages:
       bibtex: yes
 
     - title:
+        en: Downloads
+        fr: Téléchargements
+      file_prefix: downloads
+      navigation: yes
+
+    - title:
         en: Marie-Pierre Dubé
         fr: Marie-Pierre Dubé
       file_prefix: people/dube_MP

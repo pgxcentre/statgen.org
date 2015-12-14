@@ -1,0 +1,30 @@
+
+# Téléchargements
+
+## [Forward](https://github.com/legaultmarc/forward)
+
+`forward` est un outil bio-informatique afin d'exécuter, de gérer et
+d'explorer les études phénomiques. La documentation est disponible
+[ici](http://legaultmarc.github.io/forward/). Un
+[gestionnaire de bogues](https://github.com/legaultmarc/forward/issues) pour ce
+projet (qui peut être utilisé pour les demandes de fonctionnalités) est
+également disponible.
+
+
+## [genipe](https://github.com/pgxcentre/genipe)
+
+`genipe` est un pipeline automatique pour effectuer une analyse d'imputation
+pangénomique sur un jeu de données génétiques. Une documentation complète
+est disponible [ici](http://pgxcentre.github.io/genipe/). Les instructions
+d'installation sont disponibles
+[ici](http://pgxcentre.github.io/genipe/installation.html) et dans le fichier
+[README](https://github.com/pgxcentre/genipe/blob/master/README.mkd).
+
+ 
+## [pyplink](https://github.com/lemieuxl/pyplink)
+
+`pyplink` est un module python open source qui permet l'utilisation des
+fichiers binaires de *Plink* sans avoir à d'abord les convertir en fichier
+texte. Le fichier
+[README](https://github.com/lemieuxl/pyplink/blob/master/README.mkd) contient
+une description de sob utilisation.
