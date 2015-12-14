@@ -12,7 +12,7 @@ pages:
     - title:
         en: Home
         fr: Accueil
-      file_prefix: home
+      file_prefix: index
       navigation: yes
 
     - title:
