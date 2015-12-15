@@ -5,7 +5,7 @@ configuration:
     template_dir: templates/current   # The directory containing the templates
     bibtex_dir: content/bibtex        # The directory containing BibTeX files
     static_dir: static                # The directory containing static content
-    # site_root: /                    # The website root
+    site_root: /build/                    # The website root
 
 # The pages (in order)
 pages:
@@ -36,9 +36,9 @@ pages:
       bibtex: yes
 
     - title:
-        en: Downloads
-        fr: Téléchargements
-      file_prefix: downloads
+        en: Tools
+        fr: Outils
+      file_prefix: tools
       navigation: yes
 
     - title:
