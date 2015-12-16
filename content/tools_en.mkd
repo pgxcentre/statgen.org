@@ -25,3 +25,13 @@ the [README](https://github.com/pgxcentre/genipe/blob/master/README.mkd) file.
 files without having to first convert them to text file. The 
 [README](https://github.com/lemieuxl/pyplink/blob/master/README.mkd) file
 contains a description of how to use this module.
+
+
+## [pyGenClean]({{ lang_root }}/tools/pygenclean.html)
+
+*pyGenClean* is a bioinformatics tool to facilitate and standardize the genetic
+data clean up pipeline with genotyping array data. In conjunction with a source
+batch-queuing system, the tool minimizes data manipulation errors, it
+accelerates the completion of the data clean up process and it provides
+informative graphics and metrics to guide decision making for statistical
+analysis.

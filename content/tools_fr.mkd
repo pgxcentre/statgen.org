@@ -28,3 +28,12 @@ fichiers binaires de *Plink* sans avoir à d'abord les convertir en fichier
 texte. Le fichier
 [README](https://github.com/lemieuxl/pyplink/blob/master/README.mkd) contient
 une description de sob utilisation.
+
+
+## [pyGenClean]({{ lang_root }}/tools/pygenclean.html)
+
+*pyGenClean* est un outil bio-informatique permettant de faciliter et de
+normaliser le nettoyage de données génétiques. L'outil minimise les erreurs de
+manipulation de données, il accélère le pipeline de nettoyage des données et il
+fournit des graphiques et des métriques permettant de guider la prise de
+décision pour les analyses statistiques.
