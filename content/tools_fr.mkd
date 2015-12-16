@@ -43,3 +43,11 @@ décision pour les analyses statistiques.
 
 Cet ensemble d'outils a été créée pour l'étude de séquençage complet du génome
 base algorithmes pour CNV génotypage de jumeaux monozygotes familles.
+
+
+## [CNGen]({{ lang_root }}/tools/cngen.html)
+
+Nous avons créé un script qui convertit les SNP et les CNV générés par Fawkes
+(suite Birdsuite) en génotypes CN phasés en utilisant des données familiales.
+Ce logiciel rend possible l'utilisation des CNV et CNP pour les études de
+liaison génétique avec les données de la famille.

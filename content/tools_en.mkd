@@ -41,3 +41,11 @@ analysis.
 
 This set of tools was created for the study of whole genome sequencing based
 algorithms for CNV genotyping in monozygotic twins families.
+
+
+## [CNGen]({{ lang_root }}/tools/cngen.html)
+
+We have created a script that converts integrated SNP and CNV calls generated
+from Birdsuite's Fawkes procedure into phased copy number genotypes (CN
+genotypes) using familial pedigree data. This software makes possible the use
+of CNPs and CNVs for genetic linkage with family data.

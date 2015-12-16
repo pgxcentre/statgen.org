@@ -1,0 +1,41 @@
+
+# CNGen
+
+Nous avons créé un script qui convertit les SNP et les CNV générés par Fawkes
+(suite Birdsuite) en génotypes CN phasés en utilisant des données familiales.
+Ce logiciel rend possible l'utilisation des CNV et CNP pour les études de
+liaison génétique avec les données de la famille. L'outil fonctionne à la fois
+sous Linux, Windows et Mac OS.
+
+L'outil a été implémenté en utilisant la version 2.5.2 de Python sur un poste
+de travail Linux. CNGen a été testé sur différentes distributions de Linux, de
+Windows (XP, Vista et 7 RC) et de Mac OS / X, en utilisant Python 2.5.2 et
+2.6.1. L'outil n'est pas compatible avec la version 3 de Python.
+
+* [CNGen-1.0.1.tar.bz2](http://statgen.org/wp-content/uploads/Softwares/CNGen/CNGen-1.0.1.tar.bz2) ([md5](http://statgen.org/wp-content/uploads/Softwares/CNGen/CNGen-1.0.1.tar.bz2.md5))
+* [CNGen-1.0.1.tar.gz](http://statgen.org/wp-content/uploads/Softwares/CNGen/CNGen-1.0.1.tar.gz) ([md5](http://statgen.org/wp-content/uploads/Softwares/CNGen/CNGen-1.0.1.tar.gz.md5))
+* [CNGen-1.0.1.zip](http://statgen.org/wp-content/uploads/Softwares/CNGen/CNGen-1.0.1.zip) ([md5](http://statgen.org/wp-content/uploads/Softwares/CNGen/CNGen-1.0.1.zip.md5))
+ 
+
+## Fichier supplémentaire 1
+
+* [250_thousand_validations.tar.bz2](http://statgen.org/wp-content/uploads/Softwares/CNGen/supp_files/250_thousand_validations.tar.bz2) ([md5](http://statgen.org/wp-content/uploads/Softwares/CNGen/supp_files/250_thousand_validations.tar.bz2.md5))
+
+Archive contenant les données simulées pour 1 million d'étapes (sur 3 millions)
+sur un pedigree contenant 47 personnes (14 fondateurs). L'archive contient les
+résultats simulés de Fawkes (fichier `validation.fawkes_calls`), les génotypes
+partitionnés générés par CNGen et les fichiers de log (fichier
+`cn_genotype_calls_validation` et `CNGen.log`, respectivement) ainsi que le
+pedfile correspondant au pedigree utilisé pour la simulation (fichier
+`pedfile.txt`). La taille de l'archive est de 72 Mb.
+
+ 
+## Fichier supplémentaire 2
+
+* [3_thousand_validations_with_errors.tar.bz2](http://statgen.org/wp-content/uploads/Softwares/CNGen/supp_files/3_thousand_validations_with_errors.tar.bz2) ([md5](http://statgen.org/wp-content/uploads/Softwares/CNGen/supp_files/3_thousand_validations_with_errors.tar.bz2.md5))
+
+Archive contenant les données simulées pour trois mille étapes avec erreurs
+mendéliennes ajoutées de façon aléatoire. L'archive contient la même structure
+de fichier que le premier fichier supplémentaire. Les données ont été divisées
+en trois fichiers en raison des limites de PedCheck. La taille de l'archive est
+de 2,2 Mb.
