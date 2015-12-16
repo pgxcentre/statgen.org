@@ -1,0 +1,55 @@
+
+# pyGenClean
+
+*pyGenClean* is an informatics tool to facilitate and standardize the genetic
+data clean up pipeline with genotyping array data. In conjunction with a source
+batch-queuing system, the tool minimizes data manipulation errors, it
+accelerates the completion of the data clean up process and it provides
+informative graphics and metrics to guide decision making for statistical
+analysis.
+
+*pyGenClean* is an open source Python 2.7 code and is freely available, along
+with documentation and examples. It is a command tool working on both Linux and
+Windows operating systems.
+
+If you use *pyGenClean* in any published work, please cite the published
+scientific paper describing the tool.
+
+  > Lemieux Perreault LP, Provost S, Legault MA, Barhdadi A, Dubé MP:
+  > **pyGenClean: efficient tool for genetic data clean up before association
+  > testing.** *Bioinformatics* 2013, **29**(13):1704-1705
+  > [DOI:[10.1093/bioinformatics/btt261](http://dx.doi.org/10.1093/bioinformatics/btt261)]
+
+
+## Downloads
+
+* source code:
+    * Latest via [GitHub](https://github.com/lemieuxl/pyGenClean)
+
+* Example of configuration file
+    * [First configuration file](http://statgen.org/wp-content/uploads/Softwares/pyGenClean/supp_files/configuration_example_1_of_2.conf)
+    * [Second configuration file](http://statgen.org/wp-content/uploads/Softwares/pyGenClean/supp_files/configuration_example_2_of_2.conf)
+
+* Reference file (ethnicity module)
+    * [1000 Genomes (build 37)](http://statgen.org/wp-content/uploads/Softwares/pyGenClean/supp_files/check_ethnicity_1000G_reference_populations_b37.tar.bz2) - 1.1G ([md5](http://statgen.org/wp-content/uploads/Softwares/pyGenClean/supp_files/check_ethnicity_1000G_reference_populations_b37.tar.bz2.md5))
+    * [HapMap (build 37)](http://statgen.org/wp-content/uploads/Softwares/pyGenClean/supp_files/check_ethnicity_HapMap_reference_populations_b37.tar.bz2) - 102M ([md5](http://statgen.org/wp-content/uploads/Softwares/pyGenClean/supp_files/check_ethnicity_HapMap_reference_populations_b37.tar.bz2.md5))
+    * [HapMap (build 36)](http://statgen.org/wp-content/uploads/Softwares/pyGenClean/supp_files/check_ethnicity_HapMap_reference_populations_b36.tar.bz2) - 104M ([md5](http://statgen.org/wp-content/uploads/Softwares/pyGenClean/supp_files/check_ethnicity_HapMap_reference_populations_b36.tar.bz2.md5))
+
+* Test dataset
+    * [Input dataset](http://statgen.org/wp-content/uploads/Softwares/pyGenClean/supp_files/pyGenClean_test_data.tar.bz2) - 32M ([md5](http://statgen.org/wp-content/uploads/Softwares/pyGenClean/supp_files/pyGenClean_test_data.tar.bz2.md5))
+    * [Expected results](http://statgen.org/wp-content/uploads/Softwares/pyGenClean/supp_files/pyGenClean_expected_results.tar.bz2) - 3M ([md5](http://statgen.org/wp-content/uploads/Softwares/pyGenClean/supp_files/pyGenClean_expected_results.tar.bz2.md5))
+
+
+## Documentation
+
+* Full documentation
+    * [HTML](http://lemieuxl.github.io/pyGenClean/index.html)
+    * [PDF](http://lemieuxl.github.io/pyGenClean/_static/pyGenClean.pdf)
+
+* Installation
+    * [Linux](http://lemieuxl.github.io/pyGenClean/install_linux.html)
+    * [Windows](http://lemieuxl.github.io/pyGenClean/install_windows.html)
+
+* [Input files](http://lemieuxl.github.io/pyGenClean/index.html#input-files)
+
+* [How to run](http://lemieuxl.github.io/pyGenClean/how_to_run.html)
