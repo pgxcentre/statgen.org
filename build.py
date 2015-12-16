@@ -92,7 +92,7 @@ class Site(object):
         """Add a page to the website.
 
         Args:
-            title (str): the title of the page.
+            title (dict): the title of the page.
             file_prefix (str): the prefix of the markdown file.
 
         Note
@@ -144,6 +144,50 @@ class Site(object):
                 title=title,
                 url=file_prefix + ".html",
             ))
+
+    def discover(self, directory, title, **kwargs):
+        """Automatically discover Markdown files and add them.
+
+        Args:
+            directory (str): the name of the directory to find Markdown files.
+            title (dict): the title of the pages to add.
+
+        """
+        # Finding the files
+        filenames = os.path.join(self.source_dir, directory, "*_en.mkd")
+        for filename in glob(filenames):
+            # Creating the page information
+            file_prefix = directory + "/" + os.path.basename(filename).replace(
+                "_en.mkd",
+                "",
+            )
+            page_info = dict(
+                title=title,
+                curr_url=file_prefix + ".html",
+                filename=os.path.join(self.build_dir, "{language}",
+                                      file_prefix + ".html"),
+                template=self.template_env.get_template(
+                    kwargs.get("template", "default.html"),
+                ),
+            )
+
+            for language in self.LANGUAGES:
+                # Getting the Markdown template
+                content = self.markdown_env.get_template(
+                    file_prefix + "_{}.mkd".format(language),
+                )
+
+                # Rendering the markdown template
+                content = content.render(
+                    static_url=self.site_root + "/" + self.static_dir,
+                    lang_root=self.site_root + "/" + language,
+                )
+
+                # Converting to HTML
+                page_info["content_" + language] = Markdown().convert(content)
+
+            # Adding the page
+            self.pages.append(page_info)
 
     def generate(self):
         """Generates the website."""
@@ -229,6 +273,10 @@ def main():
     # Adding the pages
     for page in conf["pages"]:
         website.add_page(**page)
+
+    # Discovering the pages
+    for discover in conf["autodiscover"]:
+        website.discover(**discover)
 
     # Generating the website
     website.generate()
