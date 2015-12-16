@@ -20,7 +20,7 @@ d'installation sont disponibles
 [ici](http://pgxcentre.github.io/genipe/installation.html) et dans le fichier
 [README](https://github.com/pgxcentre/genipe/blob/master/README.mkd).
 
- 
+
 ## [pyplink](https://github.com/lemieuxl/pyplink)
 
 `pyplink` est un module python open source qui permet l'utilisation des
@@ -37,3 +37,9 @@ normaliser le nettoyage de données génétiques. L'outil minimise les erreurs d
 manipulation de données, il accélère le pipeline de nettoyage des données et il
 fournit des graphiques et des métriques permettant de guider la prise de
 décision pour les analyses statistiques.
+
+
+## [CNV Analysis Toolkit](http://statgen.org/wp-content/uploads/Softwares/CNVAnalysisToolkit/cnv_analysis_toolkit.tar.gz)
+
+Cet ensemble d'outils a été créée pour l'étude de séquençage complet du génome
+base algorithmes pour CNV génotypage de jumeaux monozygotes familles.

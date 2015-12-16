@@ -18,11 +18,11 @@ a genotyped dataset. Full documentation is available
 instruction [here](http://pgxcentre.github.io/genipe/installation.html) and in
 the [README](https://github.com/pgxcentre/genipe/blob/master/README.mkd) file.
 
- 
+
 ## [pyplink](https://github.com/lemieuxl/pyplink)
 
 `pyplink` is an open source python module that enables working with Plink binary
-files without having to first convert them to text file. The 
+files without having to first convert them to text file. The
 [README](https://github.com/lemieuxl/pyplink/blob/master/README.mkd) file
 contains a description of how to use this module.
 
@@ -35,3 +35,9 @@ batch-queuing system, the tool minimizes data manipulation errors, it
 accelerates the completion of the data clean up process and it provides
 informative graphics and metrics to guide decision making for statistical
 analysis.
+
+
+## [CNV Analysis Toolkit](http://statgen.org/wp-content/uploads/Softwares/CNVAnalysisToolkit/cnv_analysis_toolkit.tar.gz)
+
+This set of tools was created for the study of whole genome sequencing based
+algorithms for CNV genotyping in monozygotic twins families.
