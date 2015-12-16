@@ -1,0 +1,41 @@
+
+# CNGen
+
+We have created a script that converts integrated SNP and CNV calls generated
+from Birdsuite's Fawkes procedure into phased copy number genotypes (CN
+genotypes) using familial pedigree data. This software makes possible the use
+of CNPs and CNVs for genetic linkage with family data. The application is
+platform independent and may be used by Linux, Windows and Mac users.
+
+It was implemented using the Python interpreter version 2.5.2 on a Linux
+workstation. *CNGen* was tested on different Linux distributions, Windows (XP,
+Vista and 7 RC) and Mac OS/X, using the Python interpreters 2.5.2 and 2.6.1.
+For now, it doesn't work using Python interpreter version 3.0.1, since there is
+a dramatic change in the API.
+
+* [CNGen-1.0.1.tar.bz2](http://statgen.org/wp-content/uploads/Softwares/CNGen/CNGen-1.0.1.tar.bz2) ([md5](http://statgen.org/wp-content/uploads/Softwares/CNGen/CNGen-1.0.1.tar.bz2.md5))
+* [CNGen-1.0.1.tar.gz](http://statgen.org/wp-content/uploads/Softwares/CNGen/CNGen-1.0.1.tar.gz) ([md5](http://statgen.org/wp-content/uploads/Softwares/CNGen/CNGen-1.0.1.tar.gz.md5))
+* [CNGen-1.0.1.zip](http://statgen.org/wp-content/uploads/Softwares/CNGen/CNGen-1.0.1.zip) ([md5](http://statgen.org/wp-content/uploads/Softwares/CNGen/CNGen-1.0.1.zip.md5))
+ 
+
+## Additional file 1
+
+* [250_thousand_validations.tar.bz2](http://statgen.org/wp-content/uploads/Softwares/CNGen/supp_files/250_thousand_validations.tar.bz2) ([md5](http://statgen.org/wp-content/uploads/Softwares/CNGen/supp_files/250_thousand_validations.tar.bz2.md5))
+
+Archive containing the simulated data for 1 million (out of 3 million) runs on
+a pedigree containing 47 individuals (14 founders). The archive contains the
+simulated Fawkes' calls (file `validation.fawkes_calls`), the partitioned
+genotyped compute by *CNGen* and the corresponding log file (file
+`cn_genotype_calls_validation` and `CNGen.log`, respectively) and the pedfile
+corresponding to the complex pedigree used for simulation (file `pedfile.txt`).
+The archive file's size is 72 Mb.
+
+ 
+## Additional file 2
+
+* [3_thousand_validations_with_errors.tar.bz2](http://statgen.org/wp-content/uploads/Softwares/CNGen/supp_files/3_thousand_validations_with_errors.tar.bz2) ([md5](http://statgen.org/wp-content/uploads/Softwares/CNGen/supp_files/3_thousand_validations_with_errors.tar.bz2.md5))
+
+Archive containing the simulated data for 3 thousand runs with Mendelian errors
+randomly added. The archive contains the same file structure as the first
+additional file. The data have been split into three files because of
+PedCheck's limitations. The archive file's size is 2.2 Mb.
