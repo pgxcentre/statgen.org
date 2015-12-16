@@ -7,6 +7,7 @@ configuration:
     static_dir: static                # The directory containing static content
     site_root: /build/                    # The website root
 
+
 # The pages (in order)
 pages:
     - title:
@@ -41,7 +42,15 @@ pages:
       file_prefix: tools
       navigation: yes
 
-    - title:
-        en: Marie-Pierre Dubé
-        fr: Marie-Pierre Dubé
-      file_prefix: people/dube_MP
+
+# Finds all pages inside the directory
+autodiscover:
+    - directory: people
+      title:
+        en: People
+        fr: Membres
+
+    - directory: tools
+      title:
+        en: Tools
+        fr: Outils
