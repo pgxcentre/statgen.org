@@ -4,11 +4,18 @@ body {
   margin: 0; }
 
 header {
+  position: relative;
   border-top: 3px solid #333;
   border-bottom: 1px solid #c3c3c3;
   background-color: #efefef;
   height: 230px;
   width: 100%; }
+
+header nav {
+  position: absolute;
+  bottom: 0px;
+  left: 50%;
+  margin-left: -276px; }
 
 header nav ul {
   margin-top: 70px;
@@ -45,7 +52,7 @@ header div p {
 header div h1 {
   font-family: Lora;
   margin: 27px 0 0 0;
-  font-size: 2.5em; }
+  font-size: 2.3em; }
 
 section#content {
   margin-top: 40px; }
