@@ -1,5 +1,5 @@
 
-# Downloads
+# Tools
 
 ## [Forward](https://github.com/legaultmarc/forward)
 
