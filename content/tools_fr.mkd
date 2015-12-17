@@ -88,3 +88,13 @@ Nous avons implémenté le test MAX de Zheng et Gastwirth (Statist. Med.
 code du test MAX qui permet à l'utilisateur de corriger pour les tests
 multiples en utilisant l'algorithme maxT (Alg 4.1 de Westfall et Young, 1993).
 Pour plus d'information, cliquez [ici]({{ lang_root }}/tools/max_test.html).
+
+
+## Beyond SAS Genetics™
+
+Papier mettant en évidence les caractéristiques de base de SAS/Genetics que
+nous appliquons systématiquement lors d'analyse d'études d'association
+génétique. Il inclut aussi des procédures SAS/STAT supplémentaires comme
+LOGISTIC et PHREG permettant d'effectuer des analyses couramment utilisées dans
+les études génétiques humaines. Pour plus d'information, cliquez
+[ici]({{ lang_root }}/tools/beyond_sas.html)

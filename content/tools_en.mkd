@@ -85,3 +85,12 @@ in some SAS MACROS. As well, we have created a wrapper for our MAX test code
 that allows the user to correct for multiple testing by using the maxT
 algorithm (Alg 4.1 of Westfall and Young, 1993). Click
 [here]({{ lang_root }}/tools/max_test.html) for more information.
+
+
+## Beyond SAS Genetics™
+
+Paper highlighting the basic features of SAS/Genetics as we routinely apply
+them to the analysis of human genetic association studies, along with
+additional SAS/STAT procedures such as LOGISTIC and PHREG to conduct analyses
+commonly used in human genetic studies. For more information, click
+[here]({{ lang_root }}/tools/beyond_sas.html).

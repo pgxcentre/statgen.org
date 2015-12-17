@@ -1,0 +1,10 @@
+
+# Beyond SAS Genetics™
+
+Papier mettant en évidence les caractéristiques de base de SAS/Genetics que
+nous appliquons systématiquement lors d'analyse d'études d'association
+génétique. Il inclut aussi des procédures SAS/STAT supplémentaires comme
+LOGISTIC et PHREG permettant d'effectuer des analyses couramment utilisées dans
+les études génétiques humaines.
+
+* Fichier [PDF](http://statgen.org/wp-content/uploads/2012/08/240-2009.pdf)
