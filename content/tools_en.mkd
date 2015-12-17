@@ -1,57 +1,62 @@
 
 # Tools
 
-## [Forward](https://github.com/legaultmarc/forward)
+## forward
 
 *forward* is a bioinformatics utility to execute, manage and explore phenomic
-studies. It's documentation is available
-[here](http://legaultmarc.github.io/forward/).
+studies. It is available via [GitHub](https://github.com/legaultmarc/forward).
+It's documentation is available [here](http://legaultmarc.github.io/forward/).
 [An issue tracker](https://github.com/legaultmarc/forward/issues) for this
 project (which can be used for feature requests) is also available.
 
 
-## [genipe](https://github.com/pgxcentre/genipe)
+## genipe
 
 *genipe* is an automatic pipeline to perform genome-wide imputation analysis on
-a genotyped dataset. Full documentation is available
-[here](http://pgxcentre.github.io/genipe/), and installation
-instruction [here](http://pgxcentre.github.io/genipe/installation.html) and in
-the [README](https://github.com/pgxcentre/genipe/blob/master/README.mkd) file.
+a genotyped dataset. It is available via
+[GitHub](https://github.com/pgxcentre/genipe). Full documentation is available
+[here](http://pgxcentre.github.io/genipe/), and installation instruction
+[here](http://pgxcentre.github.io/genipe/installation.html) and in the
+[README](https://github.com/pgxcentre/genipe/blob/master/README.mkd) file.
 
 
-## [pyplink](https://github.com/lemieuxl/pyplink)
+## pyplink
 
-*pyplink* is an open source python module that enables working with Plink binary
-files without having to first convert them to text files. The
+*pyplink* is an open source python module that enables working with Plink
+binary files without having to first convert them to text files. It is
+available via [GitHub](https://github.com/lemieuxl/pyplink). The
 [README](https://github.com/lemieuxl/pyplink/blob/master/README.mkd) file
 contains a description of how to use this module.
 
 
-## [pyGenClean]({{ lang_root }}/tools/pygenclean.html)
+## pyGenClean
 
 *pyGenClean* is a bioinformatics tool to facilitate and standardize the genetic
 data clean up pipeline with genotyping array data. In conjunction with a source
 batch-queuing system, the tool minimizes data manipulation errors, it
 accelerates the completion of the data clean up process and it provides
 informative graphics and metrics to guide decision making for statistical
-analysis.
+analysis. It is available via [GitHub](https://github.com/lemieuxl/pyGenClean).
+Click [here]({{ lang_root }}/tools/pygenclean.html) for more information.
 
 
-## [CNV Analysis Toolkit](http://statgen.org/wp-content/uploads/Softwares/CNVAnalysisToolkit/cnv_analysis_toolkit.tar.gz)
+## CNV Analysis Toolkit
 
 This set of tools was created for the study of whole genome sequencing based
-algorithms for CNV genotyping in monozygotic twins families.
+algorithms for CNV genotyping in monozygotic twins families. Click
+[here]({{ lang_root }}/tools/cnv_atk.html) for more information.
 
 
-## [CNGen]({{ lang_root }}/tools/cngen.html)
+## CNGen
 
 We have created a script that converts integrated SNP and CNV calls generated
 from Birdsuite's Fawkes procedure into phased copy number genotypes (CN
 genotypes) using familial pedigree data. This software makes possible the use
-of CNPs and CNVs for genetic linkage with family data.
+of CNPs and CNVs for genetic linkage with family data. Click
+[here]({{ lang_root }}/tools/cngen.html) for more information.
 
 
-## [Chip2Spell]({{ lang_root }}/tools/chip2spell.html)
+## Chip2Spell
 
 We have created a program that automatically generates the input files for
 *Alohomora_m*. The program, *Chip2Spell*, takes as input a genotype report and
@@ -60,20 +65,23 @@ frequency file that will be used by *Alohomora*. The program is especially
 useful if the map and frequency files for a given platform are not stored in
 the *Alohomora* library, but it is also a quick way to convert the standard
 Affymetrix or Illumina genotype report format to the AB format requested by
-*Alohomora*.
+*Alohomora*. Click [here]({{ lang_root }}/tools/chip2spell.html) for more
+information.
 
 
-## [Gene-environment interactions]({{ lang_root }}/tools/gene_env_inter.html)
+## Gene-environment interactions
 
 We have created some code that performs a GWAS analysis of gene-environment
 interactions for imputed SNPs and non-imputed SNPs. Instead of using PLINK to
 perform the logistic regressions or the generalized linear model, we used the
-PLINK's R plug-in function to do it for the non-imputed SNPs.
+PLINK's R plug-in function to do it for the non-imputed SNPs. Click [here]({{
+lang_root }}/tools/gene_env_inter.html) for more information
 
 
-## [MAX test]({{ lang_root }}/tools/max_test.html)
+## MAX test
 
 We have coded the MAX test of Zheng and Gastwirth (Statist. Med. 2006;25:3150)
 in some SAS MACROS. As well, we have created a wrapper for our MAX test code
 that allows the user to correct for multiple testing by using the maxT
-algorithm (Alg 4.1 of Westfall and Young, 1993).
+algorithm (Alg 4.1 of Westfall and Young, 1993). Click
+[here]({{ lang_root }}/tools/max_test.html) for more information.

@@ -1,0 +1,8 @@
+
+# CNV Analysis Toolkit
+
+Cet ensemble d'outils a été créée pour l'étude de séquençage complet du génome
+base algorithmes pour CNV génotypage de jumeaux monozygotes familles.
+
+* Fichier [TAR](http://statgen.org/wp-content/uploads/Softwares/CNVAnalysisToolkit/cnv_analysis_toolkit.tar.gz)
+

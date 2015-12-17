@@ -1,59 +1,64 @@
 
 # Outils
 
-## [Forward](https://github.com/legaultmarc/forward)
+## forward
 
-*forward* est un outil bio-informatique afin d'exécuter, de gérer et
-d'explorer les études phénomiques. La documentation est disponible
-[ici](http://legaultmarc.github.io/forward/). Un
-[gestionnaire de bogues](https://github.com/legaultmarc/forward/issues) pour ce
-projet (qui peut être utilisé pour les demandes de fonctionnalités) est
-également disponible.
+*forward* est un outil bio-informatique afin d'exécuter, de gérer et d'explorer
+les études phénomiques. L'outil est accessible via
+[GitHub](https://github.com/legaultmarc/forward). La documentation est
+disponible [ici](http://legaultmarc.github.io/forward/). Un [gestionnaire de
+bogues](https://github.com/legaultmarc/forward/issues) pour ce projet (qui peut
+être utilisé pour les demandes de fonctionnalités) est également disponible.
 
 
-## [genipe](https://github.com/pgxcentre/genipe)
+## genipe
 
 *genipe* est un pipeline automatique pour effectuer une analyse d'imputation
-pangénomique sur un jeu de données génétiques. Une documentation complète
-est disponible [ici](http://pgxcentre.github.io/genipe/). Les instructions
+pangénomique sur un jeu de données génétiques. L'outil est accessible via
+[GitHub](https://github.com/pgxcentre/genipe). Une documentation complète est
+disponible [ici](http://pgxcentre.github.io/genipe/). Les instructions
 d'installation sont disponibles
 [ici](http://pgxcentre.github.io/genipe/installation.html) et dans le fichier
 [README](https://github.com/pgxcentre/genipe/blob/master/README.mkd).
 
 
-## [pyplink](https://github.com/lemieuxl/pyplink)
+## pyplink
 
 *pyplink* est un module python open source qui permet l'utilisation des
 fichiers binaires de *Plink* sans avoir à d'abord les convertir en fichier
-texte. Le fichier
+texte. Le module est accessible via
+[GitHub](https://github.com/lemieuxl/pyplink). Le fichier
 [README](https://github.com/lemieuxl/pyplink/blob/master/README.mkd) contient
-une description de sob utilisation.
+une description de son utilisation.
 
 
-## [pyGenClean]({{ lang_root }}/tools/pygenclean.html)
+## pyGenClean
 
 *pyGenClean* est un outil bio-informatique permettant de faciliter et de
 normaliser le nettoyage de données génétiques. L'outil minimise les erreurs de
 manipulation de données, il accélère le pipeline de nettoyage des données et il
 fournit des graphiques et des métriques permettant de guider la prise de
-décision pour les analyses statistiques.
+décision pour les analyses statistiques. Cliquez
+[ici]({{ lang_root }}/tools/pygenclean.html) pour plus d'information.
 
 
-## [CNV Analysis Toolkit](http://statgen.org/wp-content/uploads/Softwares/CNVAnalysisToolkit/cnv_analysis_toolkit.tar.gz)
+## CNV Analysis Toolkit
 
 Cet ensemble d'outils a été créée pour l'étude de séquençage complet du génome
-base algorithmes pour CNV génotypage de jumeaux monozygotes familles.
+base algorithmes pour CNV génotypage de jumeaux monozygotes familles. Cliquez
+[ici]({{ lang_root }}/tools/cnv_atk.html) pour plus d'information.
 
 
-## [CNGen]({{ lang_root }}/tools/cngen.html)
+## CNGen
 
 Nous avons créé un script qui convertit les SNP et les CNV générés par Fawkes
 (suite Birdsuite) en génotypes CN phasés en utilisant des données familiales.
 Ce logiciel rend possible l'utilisation des CNV et CNP pour les études de
-liaison génétique avec les données de la famille.
+liaison génétique avec les données de la famille. Cliquez
+[ici]({{ lang_root }}/tools/cngen.html) pour plus d'information.
 
 
-## [Chip2Spell]({{ lang_root }}/tools/chip2spell.html)
+## Chip2Spell
 
 Nous avons créé un programme qui génère automatiquement les fichiers d'entrée
 pour *Alohomora_m*. Le programme, *Chip2Spell*, prend en entrée un fichier de
@@ -63,20 +68,23 @@ fréquence utilisé par *Alohomora*. Le programme est particulièrement utile si
 le fichier de positionnement génétique ou le fichier de fréquence pour une
 plateforme donnée ne sont pas stockés dans la bibliothèque d'*Alohomora*. De
 plus, il est aussi un moyen rapide et efficace pour convertir les fichiers par
-défaut d'Affymetrix ou d'Illumina au format AB demandé par *Alohomora*.
+défaut d'Affymetrix ou d'Illumina au format AB demandé par *Alohomora*. Pour
+plus d'information, cliquez [ici]({{ lang_root }}/tools/chip2spell.html).
 
 
-## [Interactions gène-environnement]({{ lang_root }}/tools/gene_env_inter.html)
+## Interactions gène-environnement
 
 Nous avons créé un logiciel qui effectue une analyse GWAS des interactions
 gènes-environnement pour les SNP et SNP imputées. Au lieu d'utiliser PLINK pour
 effectuer une régression logistique ou  un modèle linéaire généralisé, nous
-avons utilisé le mode R de PLINK.
+avons utilisé le mode R de PLINK. Pour plus d'information, cliquez
+[ici]({{ lang_root }}/tools/gene_env_inter.html).
 
 
-## [Test MAX]({{ lang_root }}/tools/max_test.html)
+## Test MAX
 
 Nous avons implémenté le test MAX de Zheng et Gastwirth (Statist. Med.
 2006;25:3150) dans une macro SAS. Nous avons aussi créé un wrapper pour notre
 code du test MAX qui permet à l'utilisateur de corriger pour les tests
 multiples en utilisant l'algorithme maxT (Alg 4.1 de Westfall et Young, 1993).
+Pour plus d'information, cliquez [ici]({{ lang_root }}/tools/max_test.html).

@@ -1,0 +1,8 @@
+
+# CNV Analysis Toolkit
+
+This set of tools was created for the study of whole genome sequencing based
+algorithms for CNV genotyping in monozygotic twins families.
+
+* [TAR](http://statgen.org/wp-content/uploads/Softwares/CNVAnalysisToolkit/cnv_analysis_toolkit.tar.gz) file
+
