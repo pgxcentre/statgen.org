@@ -1,0 +1,15 @@
+
+# Gene-environment interactions
+
+We have created a tool that performs a GWAS analysis of gene-environment
+interactions for imputed SNPs and non-imputed SNPs. Instead of using PLINK to
+perform the logistic regressions or the generalized linear model, we used the
+PLINK's R plug-in function to do it for the non-imputed SNPs. For the imputed
+SNPs, we completely exceeded PLINK and used R to do the statistical tests. For
+both imputed and non-imputed SNPs, we used BASH scripting to dispatch the
+analysis on SGE and then gathers the results after the analysis.
+
+The script has been implemented using BASH, Perl and R scripting on a Linux
+workstation and has been tested on Linux only.
+
+* [R_gene_environnement_analysis](http://statgen.org/wp-content/uploads/Softwares/Gene-Environment/R_gene_environnement_analysis.tar.gz)

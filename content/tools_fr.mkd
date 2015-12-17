@@ -64,3 +64,11 @@ le fichier de positionnement génétique ou le fichier de fréquence pour une
 plateforme donnée ne sont pas stockés dans la bibliothèque d'*Alohomora*. De
 plus, il est aussi un moyen rapide et efficace pour convertir les fichiers par
 défaut d'Affymetrix ou d'Illumina au format AB demandé par *Alohomora*.
+
+
+## [Interactions gène-environnement]({{ lang_root }}/tools/gene_env_inter.html)
+
+Nous avons créé un logiciel qui effectue une analyse GWAS des interactions
+gènes-environnement pour les SNP et SNP imputées. Au lieu d'utiliser PLINK pour
+effectuer une régression logistique ou  un modèle linéaire généralisé, nous
+avons utilisé le mode R de PLINK.

@@ -61,3 +61,11 @@ useful if the map and frequency files for a given platform are not stored in
 the *Alohomora* library, but it is also a quick way to convert the standard
 Affymetrix or Illumina genotype report format to the AB format requested by
 *Alohomora*.
+
+
+## [Gene-environment interactions]({{ lang_root }}/tools/gene_env_inter.html)
+
+We have created some code that performs a GWAS analysis of gene-environment
+interactions for imputed SNPs and non-imputed SNPs. Instead of using PLINK to
+perform the logistic regressions or the generalized linear model, we used the
+PLINK's R plug-in function to do it for the non-imputed SNPs.
