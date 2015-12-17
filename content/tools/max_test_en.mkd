@@ -1,0 +1,12 @@
+
+# MAX test
+
+We have coded the MAX test of Zheng and Gastwirth (Statist. Med. 2006;25:3150)
+in some SAS MACROS. As well, we have created a wrapper for our MAX test code
+that allows the user to correct for multiple testing by using the maxT
+algorithm (Alg 4.1 of Westfall and Young, 1993).
+
+* [ZIP](http://statgen.org/wp-content/uploads/Softwares/MAX/MAX-macros.zip) file
+* [TAR](http://statgen.org/wp-content/uploads/Softwares/MAX/MAX-macros.tar) file
+* [User's manual](http://statgen.org/wp-content/uploads/Softwares/MAX/dana_manual_SAS-MACROs.pdf)
+* [Supplemental paper](http://statgen.org/wp-content/uploads/Softwares/MAX/dana_supplement_SAS-MACROs.pdf) summarizing some of our work on this project

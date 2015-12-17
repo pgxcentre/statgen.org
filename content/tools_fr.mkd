@@ -72,3 +72,11 @@ Nous avons créé un logiciel qui effectue une analyse GWAS des interactions
 gènes-environnement pour les SNP et SNP imputées. Au lieu d'utiliser PLINK pour
 effectuer une régression logistique ou  un modèle linéaire généralisé, nous
 avons utilisé le mode R de PLINK.
+
+
+## [Test MAX]({{ lang_root }}/tools/max_test.html)
+
+Nous avons implémenté le test MAX de Zheng et Gastwirth (Statist. Med.
+2006;25:3150) dans une macro SAS. Nous avons aussi créé un wrapper pour notre
+code du test MAX qui permet à l'utilisateur de corriger pour les tests
+multiples en utilisant l'algorithme maxT (Alg 4.1 de Westfall et Young, 1993).

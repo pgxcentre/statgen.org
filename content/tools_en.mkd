@@ -69,3 +69,11 @@ We have created some code that performs a GWAS analysis of gene-environment
 interactions for imputed SNPs and non-imputed SNPs. Instead of using PLINK to
 perform the logistic regressions or the generalized linear model, we used the
 PLINK's R plug-in function to do it for the non-imputed SNPs.
+
+
+## [MAX test]({{ lang_root }}/tools/max_test.html)
+
+We have coded the MAX test of Zheng and Gastwirth (Statist. Med. 2006;25:3150)
+in some SAS MACROS. As well, we have created a wrapper for our MAX test code
+that allows the user to correct for multiple testing by using the maxT
+algorithm (Alg 4.1 of Westfall and Young, 1993).
