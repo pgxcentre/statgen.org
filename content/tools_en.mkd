@@ -3,7 +3,7 @@
 
 ## [Forward](https://github.com/legaultmarc/forward)
 
-`forward` is a bioinformatics utility to execute, manage and explore phenomic
+*forward* is a bioinformatics utility to execute, manage and explore phenomic
 studies. It's documentation is available
 [here](http://legaultmarc.github.io/forward/).
 [An issue tracker](https://github.com/legaultmarc/forward/issues) for this
@@ -12,7 +12,7 @@ project (which can be used for feature requests) is also available.
 
 ## [genipe](https://github.com/pgxcentre/genipe)
 
-`genipe` is an automatic pipeline to perform genome-wide imputation analysis on
+*genipe* is an automatic pipeline to perform genome-wide imputation analysis on
 a genotyped dataset. Full documentation is available
 [here](http://pgxcentre.github.io/genipe/), and installation
 instruction [here](http://pgxcentre.github.io/genipe/installation.html) and in
@@ -21,8 +21,8 @@ the [README](https://github.com/pgxcentre/genipe/blob/master/README.mkd) file.
 
 ## [pyplink](https://github.com/lemieuxl/pyplink)
 
-`pyplink` is an open source python module that enables working with Plink binary
-files without having to first convert them to text file. The
+*pyplink* is an open source python module that enables working with Plink binary
+files without having to first convert them to text files. The
 [README](https://github.com/lemieuxl/pyplink/blob/master/README.mkd) file
 contains a description of how to use this module.
 
@@ -49,3 +49,15 @@ We have created a script that converts integrated SNP and CNV calls generated
 from Birdsuite's Fawkes procedure into phased copy number genotypes (CN
 genotypes) using familial pedigree data. This software makes possible the use
 of CNPs and CNVs for genetic linkage with family data.
+
+
+## [Chip2Spell]({{ lang_root }}/tools/chip2spell.html)
+
+We have created a program that automatically generates the input files for
+*Alohomora_m*. The program, *Chip2Spell*, takes as input a genotype report and
+publicly available annotation files and creates the genotype file, map file and
+frequency file that will be used by *Alohomora*. The program is especially
+useful if the map and frequency files for a given platform are not stored in
+the *Alohomora* library, but it is also a quick way to convert the standard
+Affymetrix or Illumina genotype report format to the AB format requested by
+*Alohomora*.

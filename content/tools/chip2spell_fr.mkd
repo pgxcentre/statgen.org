@@ -1,0 +1,21 @@
+
+# Chip2Spell
+
+Nous avons créé un programme qui génère automatiquement les fichiers d'entrée
+pour *Alohomora_m*. Le programme, *Chip2Spell*, prend en entrée un fichier de
+génotypes et des fichiers d'annotation publiquement accessibles et crée le
+fichier de génotype, le fichier de positionnement génétique et le fichier de
+fréquence utilisé par *Alohomora*. Le programme est particulièrement utile si
+le fichier de positionnement génétique ou le fichier de fréquence pour une
+plateforme donnée ne sont pas stockés dans la bibliothèque d'*Alohomora*. De
+plus, il est aussi un moyen rapide et efficace pour convertir les fichiers par
+défaut d'Affymetrix ou d'Illumina au format AB demandé par *Alohomora*. Les
+dernières puces d'Affymetrix et d'Illumina sont spécifiquement prises en
+charge, mais il est également possible d'utiliser *Chip2Spell* avec des puces
+plus vieilles.
+
+Chip2Spell a été implémenté en utilisant Perl version 5.8.8 sur un
+poste de travail Linux et a été testé sur Linux ainsi que Windows XP et Vista.
+
+* [Chip2Spell-v1.0.2](http://statgen.org/wp-content/uploads/Softwares/Chip2Spell/Chip2Spell-v1.0.2.tar)
+* [Chip2Spell-v1.0.1](http://statgen.org/wp-content/uploads/Softwares/Chip2Spell/Chip2Spell-v1.0.1.tar)

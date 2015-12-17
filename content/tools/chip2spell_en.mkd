@@ -1,0 +1,19 @@
+
+# Chip2Spell
+
+We have created a program that automatically generates the input files for
+*Alohomora_m*. The program, *Chip2Spell*, takes as input a genotype report and
+publicly available annotation files and creates the genotype file, map file and
+frequency file that will be used by *Alohomora*. The program is especially
+useful if the map and frequency files for a given plateform are not stored in
+the *Alohomora* library, but it is also a quick way to convert the standard
+Affymetrix or Illumina genotype report format to the AB format requested by
+*Alohomora*. The latest Affymetrix and Illumina whole genome plateforms are
+specifically supported, but it is also possible to use *Chip2Spell* with
+previous chips.
+
+*Chip2Spell* was implemented using the Perl interpreter version 5.8.8 on a
+Linux workstation and has been tested on Linux and Widows XP and Vista.
+
+* [Chip2Spell-v1.0.2](http://statgen.org/wp-content/uploads/Softwares/Chip2Spell/Chip2Spell-v1.0.2.tar)
+* [Chip2Spell-v1.0.1](http://statgen.org/wp-content/uploads/Softwares/Chip2Spell/Chip2Spell-v1.0.1.tar)

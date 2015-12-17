@@ -3,7 +3,7 @@
 
 ## [Forward](https://github.com/legaultmarc/forward)
 
-`forward` est un outil bio-informatique afin d'exécuter, de gérer et
+*forward* est un outil bio-informatique afin d'exécuter, de gérer et
 d'explorer les études phénomiques. La documentation est disponible
 [ici](http://legaultmarc.github.io/forward/). Un
 [gestionnaire de bogues](https://github.com/legaultmarc/forward/issues) pour ce
@@ -13,7 +13,7 @@ projet (qui peut être utilisé pour les demandes de fonctionnalités) est
 
 ## [genipe](https://github.com/pgxcentre/genipe)
 
-`genipe` est un pipeline automatique pour effectuer une analyse d'imputation
+*genipe* est un pipeline automatique pour effectuer une analyse d'imputation
 pangénomique sur un jeu de données génétiques. Une documentation complète
 est disponible [ici](http://pgxcentre.github.io/genipe/). Les instructions
 d'installation sont disponibles
@@ -23,7 +23,7 @@ d'installation sont disponibles
 
 ## [pyplink](https://github.com/lemieuxl/pyplink)
 
-`pyplink` est un module python open source qui permet l'utilisation des
+*pyplink* est un module python open source qui permet l'utilisation des
 fichiers binaires de *Plink* sans avoir à d'abord les convertir en fichier
 texte. Le fichier
 [README](https://github.com/lemieuxl/pyplink/blob/master/README.mkd) contient
@@ -51,3 +51,16 @@ Nous avons créé un script qui convertit les SNP et les CNV générés par Fawk
 (suite Birdsuite) en génotypes CN phasés en utilisant des données familiales.
 Ce logiciel rend possible l'utilisation des CNV et CNP pour les études de
 liaison génétique avec les données de la famille.
+
+
+## [Chip2Spell]({{ lang_root }}/tools/chip2spell.html)
+
+Nous avons créé un programme qui génère automatiquement les fichiers d'entrée
+pour *Alohomora_m*. Le programme, *Chip2Spell*, prend en entrée un fichier de
+génotypes et des fichiers d'annotation publiquement accessibles et crée le
+fichier de génotype, le fichier de positionnement génétique et le fichier de
+fréquence utilisé par *Alohomora*. Le programme est particulièrement utile si
+le fichier de positionnement génétique ou le fichier de fréquence pour une
+plateforme donnée ne sont pas stockés dans la bibliothèque d'*Alohomora*. De
+plus, il est aussi un moyen rapide et efficace pour convertir les fichiers par
+défaut d'Affymetrix ou d'Illumina au format AB demandé par *Alohomora*.
