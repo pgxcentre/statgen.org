@@ -114,6 +114,9 @@ h2 {
   color: #3c3736;
   font-size: 1.5em; }
 
+h2 a {
+  font-size: 1em; }
+
 h3 {
   font-weight: bold;
   font-size: 1.3em; }
