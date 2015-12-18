@@ -94,3 +94,19 @@ them to the analysis of human genetic association studies, along with
 additional SAS/STAT procedures such as LOGISTIC and PHREG to conduct analyses
 commonly used in human genetic studies. For more information, click
 [here]({{ lang_root }}/tools/beyond_sas.html).
+
+
+## Testing for linkage disequilibrium using SAS/GENETICS and SAS/STAT
+
+Testing for the presence of linkage disequilibrium (LD) and measuring its value
+is important in statistical genetics. LD deals with the correlation of genetic
+variation at two or more loci in the genome within a given population. PROC
+ALLELE in SAS/GENETICS provides a variety of pairwise LD measures that are
+related to the well-known Pearson correlation r. Different statistical tests of
+linkage disequilibrium are performed using PROC ALLELE. PROC HAPLOTYPE offers
+LD test statistics for multiple loci. In this paper, we clarify differences
+between LD measures obtained using PROC ALLELE and show how the HAPLO=OPTION of
+this procedure interacts with the linkage disequilibrium calculations and
+tests. Moreover, we compare PROC CORR and PROC ALLELE in terms of correlation
+coefficients of genotypic data. For more information, click
+[here](http://statgen.org/wp-content/uploads/2012/08/testing_for_ld_using_sas.pdf).

@@ -98,3 +98,21 @@ génétique. Il inclut aussi des procédures SAS/STAT supplémentaires comme
 LOGISTIC et PHREG permettant d'effectuer des analyses couramment utilisées dans
 les études génétiques humaines. Pour plus d'information, cliquez
 [ici]({{ lang_root }}/tools/beyond_sas.html)
+
+
+## Déséquilibre de liaison avec SAS/GENETICS et SAS/STAT
+
+Vérifier pour la présence de déséquilibre de liaison (LD) et mesurer sa valeur
+est important pour les analyses statistiques en génétique. Le LD est la
+corrélation génétique entre deux ou plusieurs loci dans le génome au sein d'une
+population donnée. PROC ALLELE de SAS/GENETICS offre une variété de mesures de
+LD qui sont liés a la corrélation de Pearson. Différents tests statistiques de
+déséquilibre de liaison sont effectués en utilisant PROC ALLELE. PROC
+HAPLOTYPES offre des tests statistiques pour de multiples loci. Dans cet
+article, nous clarifions les différences entre les mesures de LD obtenus en
+utilisant PROC ALLELE et montrent comment l'option HAPLO=OPTION de cette
+procédure interagit avec les calculs de déséquilibre de liaison et les tests
+statistiques. De plus, nous comparons PROC CORR et PROC ALLELE en termes de
+coefficients de corrélation dans les données génotypiques. Pour plus
+d'information, cliquez
+[ici](http://statgen.org/wp-content/uploads/2012/08/testing_for_ld_using_sas.pdf).
