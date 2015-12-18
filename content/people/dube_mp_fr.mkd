@@ -1,7 +1,7 @@
 
 # Marie-Pierre Dubé
 
-![MPD_photo]({{ static_url }}/img/dube_mp.jpeg "Marie-Pierre Dubé, PhD")
+![MPD_photo]({{ static_url }}/img/people/dube_mp.jpeg "Marie-Pierre Dubé, PhD")
 
 ## Université de Montréal
 

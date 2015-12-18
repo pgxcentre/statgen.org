@@ -1,0 +1,11 @@
+
+# Héla Makni
+
+![MH_photo]({{ static_url }}/img/people/makni_h.jpg "Héla Makni, MD, MSc")
+
+Héla a terminé ses études de médecine à l'Université de Tunis et a complété une
+maîtrise en épidémiologie et en biostatistique à l'Université McGill. Elle a
+rejoint notre groupe en tant qu'associée de recherche en novembre 2008. Héla
+est impliqué dans plusieurs projets dans le laboratoire, y compris la gestion
+scientifique de notre étude de cohorte prospective portant sur la Warfarine,
+financée par les IRSC.

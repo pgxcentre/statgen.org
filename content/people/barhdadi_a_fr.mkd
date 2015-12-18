@@ -1,0 +1,12 @@
+
+# Amina Barhdadi
+
+![BA_photo]({{ static_url }}/img/people/barhdadi_a.jpg "Amina Barhdadi, PhD")
+
+Amina a complété son doctorat en statistique à l'Université du Québec à
+Montréal dans le département de Mathématiques en 2003 sur les modèles
+graphiques et l'analyse de la variance appliquée a la génétique et a
+l'interaction avec l'environnement. Elle a rejoint notre groupe en 2006 et
+travaille sur la mise en œuvre de modèles analytiques optimisés pour les études
+à grande échelle des associations génétiques, avec un intérêt particulier aux
+designs 2-stage et la modélisation de l'interaction gène-gène.

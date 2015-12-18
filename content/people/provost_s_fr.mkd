@@ -1,0 +1,12 @@
+
+# Sylvie Provost
+
+![SP_photo]({{ static_url }}/img/people/provost_s.jpg "Sylvie Provost, MSc")
+
+Sylvie a rejoint le groupe en 2005 comme chef de projet. Elle a obtenu un
+diplôme de maîtrise en biologie moléculaire à l'Université de Montréal en 1991
+et dispose d'une large expérience dans la gestion des projets de génotypage, et
+séquençage et d'études de liaison génétique. Dans le cadre de notre groupe,
+elle est responsable des analyses de liaison génétique pour les maladies
+simples et complexes. Elle est aussi responsable de la gestion de nos bases de
+données cliniques et génétiques.

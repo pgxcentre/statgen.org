@@ -1,0 +1,10 @@
+
+# Héla Makni
+
+![MH_photo]({{ static_url }}/img/people/makni_h.jpg "Héla Makni, MD, MSc")
+
+Héla completed her medical studies at the University of Tunis and completed an
+MSc degree in Epidemiology and Biostatistics at McGill University. She has
+joined our group as a research associate in November 2008. Héla is involved in
+multiple projects in the lab, including the scientific management of our CIHR
+funded prospective cohort study of warfarin.

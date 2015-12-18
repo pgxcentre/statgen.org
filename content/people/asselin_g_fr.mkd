@@ -1,0 +1,11 @@
+
+# Géraldine Asselin
+
+![GA_photo]({{ static_url }}/img/people/asselin_g.jpg "Géraldine Asselin, MSc")
+
+Géraldine a rejoint notre groupe en 2007 en tant qu'assistante de recherche.
+Elle est titulaire d'une maîtrise en génétique des populations de l'UQAM sous
+la direction du Dr Mayer. Elle est également titulaire d'un DESS en
+bio-informatique. Elle travaille en étroite collaboration avec nos
+collaborateurs et elle est responsable des analyses de pedigree et des études
+de liaison génétique.

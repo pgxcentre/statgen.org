@@ -1,0 +1,10 @@
+
+# Géraldine Asselin
+
+![GA_photo]({{ static_url }}/img/people/asselin_g.jpg "Géraldine Asselin, MSc")
+
+Géraldine joined our group in 2007 as a research assistant. She holds a
+Master's degree in population genetics from UQAM which she conducted with Dr
+Mayer and she also holds a DESS degree in bioinformatics. As part of the group,
+she works closely with our collaborators and is responsible for pedigree-based
+analyses and linkage studies.

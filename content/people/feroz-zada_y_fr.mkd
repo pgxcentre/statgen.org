@@ -1,0 +1,9 @@
+
+# Yassamin Feroz-Zada
+
+![FZY_photo]({{ static_url }}/img/people/feroz-zada_y.jpg "Yassamin Feroz-Zada, MSc")
+
+Yassamin a rejoint le groupe en 2007. Elle est titulaire d'une maîtrise en
+statistique de l'Université de Montréal. Elle travaille sur plusieurs projets
+dans notre groupe, plus particulièrement sur les projets d'association
+génétique et la programmation SAS.

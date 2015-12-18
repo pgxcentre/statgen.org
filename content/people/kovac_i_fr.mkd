@@ -1,0 +1,12 @@
+
+# Ilija Kovac
+
+![KI_photo]({{ static_url }}/img/people/kovac_i.jpg "Ilija Kovac, PhD")
+
+Ilija a rejoint notre groupe en 2007. Auparavant, il a complété un baccalauréat
+et une maîtrise en génétique des populations à Belgrade, suivie d'un doctorat
+en 1991 en épidémiologie génétique à l'Université McGill avec le Dr Palmour. Il
+a complété sa formation postdoctorale au NHGRI/NIH avec le Dr Wilson. Dans le
+cadre de notre groupe, il est impliqué dans le projet de mélange d'ethnicité au
+Québec financé par le FRSQ et travaille sur les méthodes d'ajustement de la
+structure populationnelle.

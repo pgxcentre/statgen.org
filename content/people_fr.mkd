@@ -4,12 +4,12 @@
 
 ## Membres actuels
 
-* [Marie-Pierre Dubé]({{ lang_root }}/people/dube_MP.html), PhD, directrice de recherche
-* Sylvie Provost, MSc, chef de projet
-* Amina Barhdadi, PhD, bio-statisticienne
-* Géraldine Asselin, MSc, assistante de recherche
-* Yassamin Feroz-Zada, MSc, statisticienne
-* Louis-Philippe Lemieux Perreault, PhD, bio-informaticien
+* [Marie-Pierre Dubé]({{ lang_root }}/people/dube_mp.html), PhD, directrice de recherche
+* [Sylvie Provost]({{ lang_root }}/people/provost_s.html), MSc, chef de projet
+* [Amina Barhdadi]({{ lang_root }}/people/barhdadi_a.html), PhD, bio-statisticienne
+* [Géraldine Asselin]({{ lang_root }}/people/asselin_g.html), MSc, assistante de recherche
+* [Yassamin Feroz-Zada]({{ lang_root }}/people/feroz-zada_y.html), MSc, statisticienne
+* [Louis-Philippe Lemieux Perreault]({{ lang_root }}/people/lemieux_perreault_lp.html), PhD, bio-informaticien
 * Marc-André Legault, Étudiant au doctorat en bio-informatique, UdeM
 * Payman Shahabi, MD, PhD, Étudiant post-doctoral, pharmacogenomique
 * René Fouodjio, MSc, bio-statisticien
@@ -28,19 +28,19 @@
 * Simon Girard, Étudiant PhD, Biology moléculaire, UdeM
 * Étienne Rouleau Mailloux, Étudiant MSc, Pharmacogénomique, UdeM
 * Martin Leboeuf, PhD, bio-informatien senior pour les projets de la cohorte hospitalière de l'ICM
-* Imen Bahroun, MD, Étudiante MSc, UdeM
+* [Imen Bahroun]({{ lang_root }}/people/bahroun_i.html), MD, Étudiante MSc, UdeM
 * Jacqueline Nguyen, Étudiante BSc, stage d'été en biochimie et médecine moléculaire, UdeM (2011)
 * Carl Vita-Pinard, Étudiant BSc, stagiaire en sciences biomédicales, UdeM (2011)
 * Steven Hébert, Étudiant BSc, stagiaire d'été en bio-informatique, UdeM (2011)
 * Aude-Christine Guédon, Étudiante MSc en bio-statistique (2010)
-* Adda Villanueva, Étudiant PhD en épidémiologie (2009-2010)
+* [Adda Villanueva]({{ lang_root }}/people/villanueva_a.html), Étudiante PhD en épidémiologie (2009-2010)
 * François Gervais , Candidat MSc, statistique (2009)
-* Héla Makni, MD, MSc, assistant de recherche (2008-2010)
+* [Héla Makni]({{ lang_root }}/people/makni_h.html), MD, MSc, assistant de recherche (2008-2010)
 * Mojgan Yazdanpanah, PhD, étudiante post-doctoral (2009-2010)
 * Nahid Yazdanpanah, PhD, étudiante post-doctoral (2009-2010)
 * Dana Aeschliman, MSc, statistician (2007)
 * Nelli Martchenko-Shimko, MSc, programmeuse mathématicienne (2005-2006)
 * Hannah Beattie , Étudiante d'été en médecine (2008), financée par COPSE
-* Ilija Kovac, PhD, assistant de recherche (2007-2010)
+* [Ilija Kovac]({{ lang_root }}/people/kovac_i.html), PhD, assistant de recherche (2007-2010)
 * Mélissa Colizza , Étudiante d'été en médecine (2009), financée par COPSE
 * Frédéric Fournier , Étudiant d'été en bio-informatique (2009), financé par COPSE

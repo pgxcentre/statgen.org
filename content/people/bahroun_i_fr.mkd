@@ -1,0 +1,11 @@
+
+# Imen Bahroun
+
+![BI_photo]({{ static_url }}/img/people/bahroun_i.jpg "Imen Bahroun, MD")
+
+Imen a rejoint notre groupe en 2007 pour compléter une maîtrise dans le
+département de pharmacologie à l'Université de Montréal. Elle est titulaire
+d'un doctorat en médecine d'Odessa, Ukraine, et termine actuellement ses
+examens à la CMQ. Son projet de maitrise vise à évaluer la valeur de la
+pharmacogénétique dans le traitement de la fibrillation auriculaire avec la
+warfarine et les antiarythmiques.

@@ -1,0 +1,12 @@
+
+# Louis-Philippe Lemieux Perreault
+
+![LPLP_photo]({{ static_url }}/img/people/lemieux_perreault_lp.jpg "Louis-Philippe Lemieux Perreault, PhD")
+
+Louis-Philippe a rejoint notre groupe en septembre 2008. Il a complété un
+baccalauréat et une maîtrise dans le programme de bio-informatique à
+l'Université de Montréal. Il a poursuivi avec un doctorat dans le même
+département avec notre groupe de recherche. Son projet de recherche a porté sur
+l'analyse des variantes et des polymorphismes de nombre de copies appliquées
+aux études sur les maladies cardio-vasculaires. Il est maintenant
+bio-informaticien sénior au sein de notre groupe.

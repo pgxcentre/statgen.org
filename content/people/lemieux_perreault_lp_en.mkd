@@ -1,0 +1,11 @@
+
+# Louis-Philippe Lemieux Perreault
+
+![LPLP_photo]({{ static_url }}/img/people/lemieux_perreault_lp.jpg "Louis-Philippe Lemieux Perreault, PhD")
+
+Louis-Philippe joined our group in September 2008. He completed a BSc and MSc
+in the bioinformatics program at Université de Montréal. He pursued with
+a PhD in the same department with our research group. His research project was
+focused on the analysis of copy number variants and polymorphisms applied to
+cardiovascular diseases studies. He is now a senior bioinformatician within
+our group.

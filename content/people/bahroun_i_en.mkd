@@ -1,0 +1,10 @@
+
+# Imen Bahroun
+
+![BI_photo]({{ static_url }}/img/people/bahroun_i.jpg "Imen Bahroun, MD")
+
+Imen joined our group in 2007 to complete a Master's project in the department
+of pharmacology at Université de Montréal. She holds an MD degree from Odessa,
+Ukraine, and is currently completing her exams at the CMQ. Her master's project
+aims to evaluate the value of pharmacogenetics in the treatment of atrial
+fibrillation with warfarin and anti-arrhythmics.

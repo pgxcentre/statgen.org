@@ -1,0 +1,8 @@
+
+# Yassamin Feroz-Zada
+
+![FZY_photo]({{ static_url }}/img/people/feroz-zada_y.jpg "Yassamin Feroz-Zada, MSc")
+
+Yassamin joined us in 2007. She holds a Master's degree in statistics from
+Université de Montréal. She is working on multiple projects in our group, with
+an emphasis on genetic association projects and SAS programming.

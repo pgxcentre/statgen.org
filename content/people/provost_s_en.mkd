@@ -1,0 +1,11 @@
+
+# Sylvie Provost
+
+![SP_photo]({{ static_url }}/img/people/provost_s.jpg "Sylvie Provost, MSc")
+
+Sylvie joined the group in 2005 as project manager. She obtained a Master's
+degree in Molecular Biology from Université de Montréal in 1991 and has a broad
+experience in the management of genotyping and sequencing projects and linkage
+analysis. As part of our group, she is responsible for conducting the linkage
+analyses of simple and complex diseases and for the management of our clinical
+and genetic databases.

@@ -1,0 +1,11 @@
+
+# Amina Barhdadi
+
+![BA_photo]({{ static_url }}/img/people/barhdadi_a.jpg "Amina Barhdadi, PhD")
+
+Amina completed her Ph.D. in statistics at the University of Quebec in Montreal
+in the department of Mathematics in 2003 on graphical models and analysis of
+variance applied to genotype and environment interaction. She joined our group
+in 2006 and works on the implementation of optimized analytical designs for
+large scale genetic association studies, with particular interest in 2-stage
+designs and gene-gene interaction modeling.

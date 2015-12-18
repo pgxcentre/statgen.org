@@ -1,0 +1,11 @@
+
+# Ilija Kovac
+
+![KI_photo]({{ static_url }}/img/people/kovac_i.jpg "Ilija Kovac, PhD")
+
+Ilija joined our group in 2007. He previously completed a BSc and an MSc in
+population genetics in Belgrade, followed by a PhD in genetic epidemiology at
+McGill with Dr Palmour in 1991. He completed his postdoctoral training at the
+NHGRI/NIH with Dr Wilson. As part of our group, he is involved in the Quebec
+admixture project funded by the FRSQ and is working on population structure
+adjustment methods.
