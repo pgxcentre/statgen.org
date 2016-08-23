@@ -21,10 +21,10 @@ Note
 
 
 import os
+import re
 import shutil
 import argparse
 from glob import glob
-from collections import OrderedDict
 
 import yaml
 import bibtexparser
@@ -227,6 +227,10 @@ class Site(object):
         """
         bib = []
 
+        # The regular expression for the "and" between the authors
+        and_re = re.compile(r"\s+and\s+")
+        dash_re = re.compile(r"-+")
+
         # Getting the BibTeX files
         for fn in glob(os.path.join(self.bibtex_dir, "*.bib")):
             year = int(os.path.basename(fn).split(".")[0])
@@ -246,8 +250,13 @@ class Site(object):
                 if not pubs[i]["author"].endswith("."):
                     pubs[i]["author"] += "."
 
+                # Replacing the in between author "and"
+                authors = and_re.split(pubs[i]["author"])
+                authors = ", ".join(authors[:-1]) + " and " + authors[-1]
+                pubs[i]["author"] = authors
+
                 # Replacing '--' with '-'
-                pubs[i]["pages"] = pubs[i]["pages"].replace("--", "-")
+                pubs[i]["pages"] = dash_re.sub("-", pubs[i]["pages"])
 
                 # Adding the pubmed identification number
                 pubs[i]["pmid"] = int(pubs[i]["ID"].replace("pmid", ""))
