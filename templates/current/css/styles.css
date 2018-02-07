@@ -82,7 +82,7 @@ a#language-button:hover {
   transition: background-color 0.2s linear;
   -webkit-transition: background-color 0.2s linear;
   -moz-transition: background-color 0.2s linear;
-  -o-transition: background-color 0.2s linear; 
+  -o-transition: background-color 0.2s linear;
   background-color: #d2d2d2; }
 
 /* Typography */
