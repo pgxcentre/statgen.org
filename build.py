@@ -257,7 +257,10 @@ class Site(object):
 
                 # Replacing the in between author "and"
                 authors = and_re.split(pubs[i]["author"])
-                authors = ", ".join(authors[:-1]) + " and " + authors[-1]
+                if len(authors) > 30:
+                    authors = ", ".join(authors[:30]) + " et al."
+                else:
+                    authors = ", ".join(authors[:-1]) + " and " + authors[-1]
                 pubs[i]["author"] = authors
 
                 # Replacing '--' with '-'
