@@ -22,6 +22,7 @@ Note
 
 import os
 import re
+import sys
 import shutil
 import argparse
 from glob import glob
@@ -58,6 +59,10 @@ class Site(object):
 
         # Overwrite the build directory.
         if os.path.isdir(self.build_dir):
+            r = input("Delete entire directory '{}'? ".format(self.build_dir))
+            if r.upper() not in {"Y", "YES"}:
+                print("Stopped")
+                sys.exit(0)
             shutil.rmtree(self.build_dir)
         os.mkdir(self.build_dir)
 
