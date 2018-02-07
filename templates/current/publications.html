@@ -5,7 +5,7 @@
       {{ content|safe }}
 
       {% for year, publications in bibtex %}
-      <h2>{{ year }}</h2>
+      <h2 class="pubyear">{{ year }}</h2>
 
       {% for pub in publications %}
       <p class="publication">
