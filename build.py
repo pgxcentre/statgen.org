@@ -261,7 +261,7 @@ class Site(object):
                 pubs[i]["author"] = authors
 
                 # Replacing '--' with '-'
-                pubs[i]["pages"] = dash_re.sub("-", pubs[i]["pages"])
+                pubs[i]["pages"] = dash_re.sub("-", pubs[i].get("pages", ""))
 
                 # Adding the pubmed identification number
                 pubs[i]["pmid"] = int(pubs[i]["ID"].replace("pmid", ""))
